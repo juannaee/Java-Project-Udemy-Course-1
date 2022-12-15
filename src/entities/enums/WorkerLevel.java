@@ -1,5 +1,5 @@
 package entities.enums;
 
-public enum EnumTeste {
+public enum WorkerLevel {
 
 }
