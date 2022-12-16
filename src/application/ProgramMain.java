@@ -33,7 +33,6 @@ public class ProgramMain {
 		System.out.println("How many contracts to this worker?");
 		int numberContracts = read.nextInt();
 
-		DateTimeFormatter dtm01 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		for (int i = 0; i < numberContracts; i++) {
 			int aux = 1;
 			aux += i;
