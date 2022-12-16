@@ -1,7 +1,6 @@
 package application;
 
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -59,7 +58,6 @@ public class ProgramMain {
 		int month = read.nextInt();
 		System.out.println("enter the year:");
 		int year = read.nextInt();
-
 		System.out.println("Name: " + worker.getWorkerName());
 		System.out.println("Department: " + worker.getDepartment().getNameDepartment());
 		System.out.println("Income For:" + worker.income(year, month));

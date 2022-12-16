@@ -1,6 +1,6 @@
 package entities;
 
-import java.time.YearMonth;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -71,8 +71,9 @@ public class Worker {
 
 	public double income(int year, int month) {
 		double sum = baseSalary;
-		YearMonth d01 = YearMonth.of(year, month);
+		LocalDate d01 = LocalDate.now();
 		for (HourContract obj : listContract) {
+			d01 = obj.getContractDate();
 			int obj_year = d01.getYear();
 			int obj_month = d01.getMonthValue();
 			if (year == obj_year && month == obj_month) {
