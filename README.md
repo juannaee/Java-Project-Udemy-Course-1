@@ -15,3 +15,11 @@ of the user a month and show what was the salary of the employee in this month.
 
 ## Data entry example:
 ![Exemplo de entrada de dados](https://user-images.githubusercontent.com/111204834/207961357-0a7b159c-7875-41e8-b644-b6fe1df65161.png)
+
+
+
+
+## Program Running:
+https://user-images.githubusercontent.com/111204834/208194014-50483813-58c8-460d-a991-cfd20b1a3595.mp4
+
+
