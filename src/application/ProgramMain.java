@@ -39,8 +39,14 @@ public class ProgramMain {
 			aux += i;
 			System.out.println();
 			System.out.println("Enter contract" + "#" + aux + " data:");
-			System.out.println("Date (DD/MM/YYYY)");
-			LocalDate dateContract = (LocalDate) dtm01.parse(read.next());
+			System.out.println("Date: ");
+			System.out.println("enter the day:");
+			int day = read.nextInt();
+			System.out.println("enter the month:");
+			int month = read.nextInt();
+			System.out.println("enter the year:");
+			int year = read.nextInt();
+			LocalDate dateContract = LocalDate.of(year, month, day);
 			System.out.println("Value per hour:");
 			double valuePerhour = read.nextDouble();
 			System.out.println("Duration (hours):");
