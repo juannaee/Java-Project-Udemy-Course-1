@@ -63,7 +63,7 @@ public class ProgramMain {
 		LocalDate dateAux = LocalDate.of(year, month, 0);
 		System.out.println("Name: " + worker.getWorkerName());
 		System.out.println("Department: " + worker.getDepartment().getNameDepartment());
-		System.out.println("Income For:" + dateAux.format(dtm02) + " :" + worker.income(year, month));
+		System.out.println("Income For:" + worker.income(year, month));
 
 		read.close();
 
