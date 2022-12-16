@@ -18,7 +18,6 @@ public class Worker {
 	}
 
 	public Worker(String workerName, WorkerLevel workerLevel, Double baseSalary, Department department) {
-		super();
 		this.workerName = workerName;
 		this.workerLevel = workerLevel;
 		this.baseSalary = baseSalary;
@@ -72,7 +71,7 @@ public class Worker {
 
 	public double income(int year, int month) {
 		double sum = baseSalary;
-		LocalDate d01 = LocalDate.of(year, month, 0);
+		LocalDate d01 = LocalDate.of(year,month,0);
 		for (HourContract obj : listContract) {
 			int obj_year = d01.getYear();
 			int obj_month = d01.getMonthValue();
